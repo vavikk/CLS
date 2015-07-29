@@ -53,8 +53,9 @@ var cls = (function(){
 // Example
 var Module = (function($) {
       
-    var test = document.getElementsByClassName("test")[0];
-    var green = document.getElementsByClassName("greenClass")[0];
+    var test = document.getElementsByClassName("test")[0],
+        green = document.getElementsByClassName("greenClass")[0];
+    
     var init =  function () {
         setEvents();
     };
