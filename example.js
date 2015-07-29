@@ -50,9 +50,7 @@ var cls = (function(){
         return cls;
     };
 })();
-
-var test = document.getElementsByClassName("test");
-
+// Example
 var Module = (function($) {
       
     var test = document.getElementsByClassName("test")[0];
