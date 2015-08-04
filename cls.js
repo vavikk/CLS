@@ -43,9 +43,9 @@ var cls = (function(){
     };
      
     if ( typeof define === 'function' && define.amd ) {
-        define( classie );
+        define( cls );
     } else if ( typeof exports === 'object' ) {
-        module.exports = classie;
+        module.exports = cls;
     } else {
         return cls;
     };
